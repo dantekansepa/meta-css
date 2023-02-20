@@ -11,19 +11,15 @@
   </video>
   <form>
     <div>
-      <label for='rating'>
-        <input type='range' id='rating' name='rating' min>
-      </label>
+      <label for='rating'>Rating</label>
+        <input type='range' id='rating' name='rating' min="1" max="5">
       <datalist id='rating'>
-        <label for='1'>
-          <option value='1'>
-        </label>
-        <option value='2'>
-        <option value='3'>
-        <option value='4'>
-        <label for='5'>
-          <option value='5'>
-        </label>
+        <option value='1' lable="1"></option>
+        <option value='2'></option>
+        <option value='3'></option>
+        <option value='4'></option>
+        <option value='5' label="5"></option>
+
       </datalist>
     </div>
     <button type='submit'>Submit Rating</button>
